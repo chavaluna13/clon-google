@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Clon de Google</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Gmail</a>
+      <a href="#">Imágenes</a>
+      <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google logo">
+      <a href="#">Apps</a>
+      <a href="#">Usuario</a>
+    </nav>
+    <form>
+      <input type="text" id="input-search" placeholder="Buscar en Google">
+      <div>
+        <a href="#" id="search" class="btn-search">Buscar con Google</a>
+        <a href="#" id="lucky" class="btn-search">Me siento con suerte</a>
+      </div>
+    </form>
+  </header>
+  <main>
+    <section>
+      <h2>Resultados de búsqueda</h2>
+      <p>Acerca de 1,000,000,000 resultados (0.45 segundos)</p>
+      <ul>
+        <li><a href="#">Resultados de búsqueda 1</a></li>
+        <li><a href="#">Resultados de búsqueda 2</a></li>
+        <li><a href="#">Resultados de búsqueda 3</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Noticias destacadas</h2>
+      <ul>
+        <li><a href="#">Noticia 1</a></li>
+        <li><a href="#">Noticia 2</a></li>
+        <li><a href="#">Noticia 3</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <nav>
+      <a href="#">Publicidad</a>
+      <a href="#">Negocios</a>
+      <a href="#">Cómo funciona la búsqueda</a>
+    </nav>
+    <nav>
+      <a href="#">Privacidad</a>
+      <a href="#">Condiciones
